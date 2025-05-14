@@ -5,7 +5,7 @@ def agregar_tarea(tarea):
     tareas.append({"Descripción": tarea, "completada": False})
     print(f"Tarea '{tarea}' agregada.")
 
-def mostrar_tareas():
+def mostrar_tarea():
     if not tareas:
         print("No hay tareas pendientes.")
     else:
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     agregar_tarea("comprar leche")
     agregar_tarea("comprar azucar")
     agregar_tarea("estudiar para programacion II")
-    mostrar_tareas()
+    mostrar_tarea()
     marcar_completada(1)
-    mostrar_tareas()
+    mostrar_tarea()
 
